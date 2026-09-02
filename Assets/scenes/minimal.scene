@@ -119,7 +119,7 @@
           "__enabled": true,
           "Flags": 0,
           "__version": 1,
-          "BakedTexture": null,
+          "BakedTexture": "scenes/minimal_scene_data/envmap/bake_f3e304db-baab-4c1a-a4ec-8442585c2d62.vtex",
           "Bounds": {
             "Mins": "-512,-512,-512",
             "Maxs": "512,512,512"
@@ -128,7 +128,7 @@
           "Feathering": 0.02,
           "FrameInterval": 5,
           "MaxDistance": 512,
-          "Mode": "CustomTexture",
+          "Mode": "Baked",
           "MultiBounce": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -157,7 +157,7 @@
       "Position": "-267.451996,-379.653015,297.790314",
       "Rotation": "-0.144858196,0.286023915,0.427963108,0.845017076",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "light_spot,light",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
@@ -244,6 +244,30 @@
           "OnComponentUpdate": null,
           "Scale": 0.2,
           "TexelSize": 1
+        },
+        {
+          "__type": "Sandbox.SpotLight",
+          "__guid": "4131b723-3a4f-4220-b8b7-cfe8a94d7633",
+          "__enabled": true,
+          "Flags": 0,
+          "Attenuation": 1,
+          "ConeInner": 15,
+          "ConeOuter": 45,
+          "Contribution": "Diffuse, Specular, Transmissive",
+          "Cookie": null,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 500,
+          "ShadowBias": 0,
+          "ShadowHardness": 0,
+          "Shadows": true
         }
       ],
       "Children": []
@@ -278,10 +302,9 @@
           "IsTrigger": false,
           "Mesh": {
             "Data": {
-              "$blob": "0f154937-3a8c-8805-ab4c-b64d948c20d0"
+              "$blob": "798307ab-ca2f-8cac-807b-6edb026f58b8"
             },
             "Materials": [
-              "materials/dev/reflectivity_30.vmat",
               "othersruff/groundtexture/groundmaterial.vmat"
             ]
           },
@@ -304,6 +327,86 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "47734494-9269-452d-afa7-2f8eca15c8c6",
+      "__version": 2,
+      "__Prefab": "prefabs/checkpoint.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "554ccb06-3dcd-49cf-8264-b433202d13bd"
+            },
+            "Property": "Position",
+            "Value": "0,-2480,-16"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "817bb34a-4d8c-4c0b-8212-8f0f32b3d60b"
+            },
+            "Property": "CheckpointNumber",
+            "Value": 2
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "554ccb06-3dcd-49cf-8264-b433202d13bd": "47734494-9269-452d-afa7-2f8eca15c8c6",
+        "f24e1813-889a-4967-bcf1-031480fe9d1e": "3e4486c3-910a-4a63-b4ea-f8c1b546b978",
+        "b4887bf5-32f1-4cc1-8e49-1095c6afaa81": "14f791b6-1362-8fcd-952c-0045f0bf86ec",
+        "3789b513-247f-430f-9e4d-7c6b28fb5a0a": "ce457819-a0c6-8c10-8716-170591c113a5",
+        "7c068fa6-767f-4b7e-afad-838b8b4a2f0f": "6ce2ce71-e032-8255-9a94-9f4a305f1c5a",
+        "817bb34a-4d8c-4c0b-8212-8f0f32b3d60b": "69867c5d-3f39-8610-98fd-ec9ea4c85ccd"
+      }
+    },
+    {
+      "__guid": "391e83c2-7279-4f2d-b65b-397a6064637a",
+      "__version": 2,
+      "__Prefab": "prefabs/checkpoint.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "554ccb06-3dcd-49cf-8264-b433202d13bd"
+            },
+            "Property": "Name",
+            "Value": "checkpoint (1)"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "554ccb06-3dcd-49cf-8264-b433202d13bd"
+            },
+            "Property": "Position",
+            "Value": "0,-2160,-16"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "817bb34a-4d8c-4c0b-8212-8f0f32b3d60b"
+            },
+            "Property": "CheckpointNumber",
+            "Value": 1
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "554ccb06-3dcd-49cf-8264-b433202d13bd": "391e83c2-7279-4f2d-b65b-397a6064637a",
+        "f24e1813-889a-4967-bcf1-031480fe9d1e": "83798e64-1b80-4ca3-a1c6-23bdf2d48d6e",
+        "b4887bf5-32f1-4cc1-8e49-1095c6afaa81": "4897f7c9-4ed4-4a14-b54f-a7eaf91e3665",
+        "3789b513-247f-430f-9e4d-7c6b28fb5a0a": "3dcdf821-c7b7-4c7f-8ce0-d7f74d4000f7",
+        "7c068fa6-767f-4b7e-afad-838b8b4a2f0f": "cf462430-6b61-4954-9437-9000ce10f009",
+        "817bb34a-4d8c-4c0b-8212-8f0f32b3d60b": "e6c633dc-228e-4523-97fa-16b12cb94690"
+      }
     },
     {
       "__guid": "2da846e8-8e34-4607-bade-4c0b40bcfeaa",
@@ -344,7 +447,7 @@
               "__version": 2,
               "Flags": 0,
               "Name": "SimpleTrigger",
-              "Position": "640,-640,50",
+              "Position": "640,-608,50",
               "Rotation": "0,0,0,1",
               "Scale": "0.5,0.5,0.5",
               "Tags": "playertrigger",
@@ -444,7 +547,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 2,
-                      "Billboard": "None",
+                      "Billboard": "Always",
                       "BlendMode": "Normal",
                       "FogStrength": 1,
                       "HorizontalAlignment": "Center",
@@ -597,7 +700,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 2,
-                      "Billboard": "None",
+                      "Billboard": "Always",
                       "BlendMode": "Normal",
                       "FogStrength": 1,
                       "HorizontalAlignment": "Center",
@@ -662,7 +765,7 @@
               "__version": 2,
               "Flags": 0,
               "Name": "Multiplayer Tips",
-              "Position": "640,-1056,0",
+              "Position": "640,-1120,0",
               "Rotation": "0,0,0,1",
               "Scale": "0.5,0.5,0.0299999993",
               "Tags": "",
@@ -750,7 +853,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 2,
-                      "Billboard": "None",
+                      "Billboard": "Always",
                       "BlendMode": "Normal",
                       "FogStrength": 1,
                       "HorizontalAlignment": "Center",
@@ -769,6 +872,771 @@
                       "Scale": 0.3,
                       "TextScope": {
                         "Text": "Multiplayer\nTips\n",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "__guid": "9e062624-999c-4466-b200-c2aba04f584a",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple Raycast",
+              "Position": "640,-1376,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "7beef748-2665-4b54-b479-add33b8525a2",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "c62245a4-4ca9-4cd9-9f42-eb5d5e92694e",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "660e172d-e183-4bb6-bc93-b272088ca763",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "9086906e-a5e0-4a61-8878-bbb36bfb8d1f",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nRaycast",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "__guid": "401f5550-c325-4489-b533-f069a26c9dc4",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple Flashlight",
+              "Position": "640,-1632,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "618d3f77-dc58-4f19-9235-446f1cdf4b98",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "8c482eef-fada-43bc-9ccf-63902c6aa397",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "4e44faaf-583c-4049-97cf-d17ddebd41cd",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "48156a60-eeca-4abc-aca9-e05d9c8da6ec",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nFlashlight",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "__guid": "78251d9b-0c26-4fb1-82f9-eb16a521f684",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple Achievements",
+              "Position": "640,-1888,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "cda7fc82-8c84-43e7-9919-2a34dc0efde1",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "ee168f8e-7b25-4ff1-a99b-efbe6fee1608",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "2a296246-7c2b-4513-8776-9e5f45aa8648",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "e9601020-42d5-44d0-8eec-05ad08d678a9",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nachievements",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "__guid": "ea3b8044-7731-4671-ac93-8378cb732614",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple NPC",
+              "Position": "256,-1888,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "97ee78fa-e2b9-4fbe-9ce2-3988facc6ae0",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "c56b3c76-64e1-40fb-bbc2-2f294484d93e",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "bd086c61-347b-4404-a7cb-0d212c35c8b3",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "2d85aa5f-885a-4364-8f57-e451890d0103",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nNPC\n",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
+              "__guid": "ff1c0306-1908-4666-856e-d7a77a464123",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple Obby",
+              "Position": "0,-1888,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "d79cb619-14d8-47a9-bcd0-0392c58e22db",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "f8341c63-dad5-4074-9f16-641485f88c07",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "d46dc4c5-48e1-47c5-959a-794df1177f19",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "f46ad570-698d-4912-bf35-4b9496678d26",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nObby\n",
                         "TextColor": "1,1,1,1",
                         "FontName": "Poppins",
                         "FontSize": 64,
@@ -870,8 +1738,207 @@
           "OwnerTransfer": 1,
           "Components": [],
           "Children": []
+        },
+        {
+          "__guid": "3b4cf1f6-5d31-4789-8b4e-ddbf43207bec",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "VoiceChat",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.Voice",
+              "__guid": "ccda558d-91d0-4c07-9733-b36b4a79d0d7",
+              "__enabled": true,
+              "Flags": 0,
+              "Distance": 15000,
+              "Falloff": [
+                {
+                  "x": 0,
+                  "y": 1,
+                  "in": 0,
+                  "out": -1.8,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.05,
+                  "y": 0.22,
+                  "in": 3.5,
+                  "out": -3.5,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 0.2,
+                  "y": 0.04,
+                  "in": 0.16,
+                  "out": -0.16,
+                  "mode": "Mirrored"
+                },
+                {
+                  "x": 1,
+                  "y": 0,
+                  "in": 0,
+                  "out": 0,
+                  "mode": "Mirrored"
+                }
+              ],
+              "LipSync": true,
+              "Loopback": false,
+              "Mode": "AlwaysOn",
+              "MorphScale": 3,
+              "MorphSmoothTime": 0.1,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "PushToTalkInput": "voice",
+              "Renderer": null,
+              "VoiceMixer": {
+                "Name": "unknown",
+                "Id": "00000000-0000-0000-0000-000000000000"
+              },
+              "Volume": 1,
+              "WorldspacePlayback": true
+            }
+          ],
+          "Children": []
         }
       ]
+    },
+    {
+      "__guid": "16657afd-f7ed-46c7-a8c1-58c6fc5d256f",
+      "__version": 2,
+      "__Prefab": "othersruff/bacteriamonster/bacteriamonster.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c3acfeb9-d468-4bfb-83f7-135b9cc0273c"
+            },
+            "Property": "Position",
+            "Value": "255.999969,-1888,16"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "c3acfeb9-d468-4bfb-83f7-135b9cc0273c": "16657afd-f7ed-46c7-a8c1-58c6fc5d256f",
+        "171b6e3f-90e3-4381-9755-e83e9ac580dc": "60a1dc45-fab5-4cd0-bc5e-af57d0695cc8",
+        "56e96532-4855-4334-a04a-78d5c494e416": "20d22295-0468-4a95-848b-74afb05b1739",
+        "acab76f0-2abd-45d7-914d-15a2e364a6c0": "6abe9e8f-47f8-4a00-a76f-48672fa458f6",
+        "336e315d-6528-4093-9b31-af67917f7e4e": "35fe6815-6fa5-446e-bbfa-eee134b3e6cf",
+        "97dcfb8c-2768-4857-9e76-7a88df920969": "3ee5d9bc-07c3-467f-84ef-470211fa7d0f"
+      }
+    },
+    {
+      "__guid": "7bbe17d5-2184-4c64-a641-9116135189f6",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Collider",
+      "Position": "640,-864,-10",
+      "Rotation": "0,0,0,1",
+      "Scale": "0.0400000028,0.0400000028,0.200000003",
+      "Tags": "world",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "21a77b1f-e284-4eac-a9d6-5d6dcb7bd89e",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Elasticity": null,
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Data": {
+              "$blob": "b579a201-cd76-8030-8056-d0abc209cc58"
+            },
+            "Materials": [
+              "othersruff/groundtexture/groundmaterial.vmat",
+              "othersruff/groundtexture/green.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RenderType": "On",
+          "RollingResistance": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "182c683b-95b3-4f92-b5db-8f8bddd32f66",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "-1,-197,199",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "4658,4378,602",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "SimpleCheckpointSystem",
+          "__guid": "14e2aaa6-c957-49b3-b93a-eb1216af3f44",
+          "__enabled": true,
+          "Flags": 0,
+          "CheckpointNumber": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -882,7 +1949,7 @@
       "Title": "minimal"
     },
     "NavMesh": {
-      "Enabled": false,
+      "Enabled": true,
       "IncludeStaticBodies": true,
       "IncludeKeyframedBodies": true,
       "EditorAutoUpdate": true,

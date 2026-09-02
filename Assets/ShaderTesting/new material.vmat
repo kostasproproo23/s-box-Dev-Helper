@@ -1,0 +1,19 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shadertesting/new unlit shader.shader"
+
+	//---- Custom Features ----
+	F_TINT_BY_MASK 1
+
+	//---- My Material ----
+	AlbedoMap "OtherSruff/GroundTexture/GroundImage.png"
+	TextureScale "1.000"
+	TextureTint "[1.000000 1.000000 1.000000 0.000000]"
+	TintMask "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Texture Scroll ----
+	TextureScrollDirection "[0 0]"
+	TextureScrollSpeed "[1.000 1.000]"
+}

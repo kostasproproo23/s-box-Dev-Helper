@@ -205,7 +205,68 @@
         "OnComponentEnabled": null,
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PressingForwardKey": false
+      },
+      {
+        "__type": "SimpleRaycast",
+        "__guid": "a742e6e0-0fd9-4496-b429-32ba8a83d2f0",
+        "__enabled": true,
+        "Flags": 0,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
         "OnComponentUpdate": null
+      },
+      {
+        "__type": "SimpleFirstPersonFlashlight",
+        "__guid": "d7d8610a-6860-4d49-9ccb-ff0af67e725b",
+        "__enabled": true,
+        "Flags": 0,
+        "LerpSpeed": 30,
+        "LightSource": {
+          "_type": "component",
+          "component_id": "c27dddb4-c94c-412e-9cfd-6382e4bdd157",
+          "go": "0f9186a4-4371-4d3f-a04b-8dc6baec52c5",
+          "component_type": "SpotLight"
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      },
+      {
+        "__type": "SimpleAchievements",
+        "__guid": "667530c9-c290-4781-9a53-1eae31039982",
+        "__enabled": true,
+        "Flags": 0,
+        "ClickAmountForAchievement": 10,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      },
+      {
+        "__type": "SimpleObbySystem",
+        "__guid": "adb12cb1-907e-4d9b-baae-5a417ba49c81",
+        "__enabled": true,
+        "Flags": 0,
+        "CurrentCheckpoint": 0,
+        "DeathHeight": -400,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RespawnPositon": "0,-2160,-16",
+        "StartingCheckpoint": 0
       }
     ],
     "Children": [
@@ -341,6 +402,49 @@
             "Static": false,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": []
+      },
+      {
+        "__guid": "0f9186a4-4371-4d3f-a04b-8dc6baec52c5",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Flashlight",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "light_spot,light",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.SpotLight",
+            "__guid": "c27dddb4-c94c-412e-9cfd-6382e4bdd157",
+            "__enabled": true,
+            "Flags": 0,
+            "Attenuation": 1,
+            "ConeInner": 90,
+            "ConeOuter": 20,
+            "Contribution": "Diffuse, Specular, Transmissive",
+            "Cookie": null,
+            "FogMode": "Enabled",
+            "FogStrength": 1,
+            "LightColor": "0.91373,0.98039,1,1",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Radius": 500,
+            "ShadowBias": 0,
+            "ShadowHardness": 0,
+            "Shadows": true
           }
         ],
         "Children": []

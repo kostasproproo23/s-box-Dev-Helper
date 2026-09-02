@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shadertesting/new unlit shader.shader"
+
+	//---- My Material ----
+	AlbedoMap "materials/default/default_color.tga"
+}
