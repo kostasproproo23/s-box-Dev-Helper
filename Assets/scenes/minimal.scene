@@ -1679,6 +1679,178 @@
               ]
             }
           ]
+        },
+        {
+          "__guid": "e763845d-9389-4b02-8443-0b9ce3b412a9",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Advanced",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": [
+            {
+              "__guid": "b5af9c49-16cf-4779-91c1-f1e2fb02e4bf",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "RaycastCast(CURRENTLYWORKINPROGRESS)",
+              "Position": "-640,-1888,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "d810a473-091c-47e6-a277-cd5878f68634",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "2ed52c7b-3321-4cd2-9974-e489e91b65a7",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "3e9662d5-7ac9-4041-a0cb-9dd1aff43e50",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "164c0cd9-6638-454d-b92f-070b36d4d3b3",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Raycast\nCar\n",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1939,10 +2111,123 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "48044574-cd5d-4496-af09-96151f36a99c",
+      "__version": 2,
+      "__Prefab": "models/golfcart/golfcart.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "ac477e5c-3d38-47ad-8799-7eb2594a32ae"
+            },
+            "Property": "Position",
+            "Value": "-640,-1872,64"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "20c3ef42-0d63-40ae-b08b-6495a51cad38"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,0,1"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "5a7e8fb8-3bcb-4da4-97cc-114205124431"
+            },
+            "Property": "Position",
+            "Value": "0,0,0"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "e393fc36-1585-4b9b-952f-19795d1d98e7"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,0,1"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "ac477e5c-3d38-47ad-8799-7eb2594a32ae": "48044574-cd5d-4496-af09-96151f36a99c",
+        "ffb9f20b-a37b-47bb-939e-2f57999bbb9f": "09cd4d54-0ec6-4986-bbcb-197effa5d345",
+        "91bcbdda-da72-400c-b82b-c21fe839b118": "faea64af-8366-4db4-ad7b-db4e3a881cc2",
+        "c586ed57-ce84-41d8-9ef4-8fcf7f9515c1": "e5a29285-65f1-4d33-bf81-4b920982d297",
+        "09e95978-2e27-4390-b35b-ee652382fe4f": "00f93199-385e-4fec-9261-644e3eb40df0",
+        "79650d8e-50ce-4dcf-8e07-071ef1a24ee6": "512de32f-72f8-4431-915d-d1862dcb59e0",
+        "279caa1b-1b39-4635-b4c8-1db3035bf99d": "a81d6b7b-9f77-409d-a958-8d33520920ec",
+        "4e2e37b9-08c4-40de-af9f-1ab4407f0bed": "3a04ec78-6d92-415b-8d53-0082d2fc39eb",
+        "fced04f8-c9b9-411a-a125-aebe42d9cfe5": "0837d46c-6610-4209-8c2a-d06639828bba",
+        "55edf57c-ddc9-4387-9da4-dac34c5d1552": "67a48429-06f7-4b61-8b37-4f5fb22b3004",
+        "1bfaf46b-1c1c-46ed-8a9d-8a5c05e35ef3": "389daf2b-ceed-44e4-8a76-2ac0efd337ce",
+        "20c3ef42-0d63-40ae-b08b-6495a51cad38": "65c6b1c1-55a8-4089-baf5-0dee1df3d081",
+        "a131841d-580c-4df3-ac77-8af9d6ee306f": "53b0c3b8-1431-4bb5-b1b0-3e1a6a07ac15",
+        "19dc5e6b-218a-43d2-82b4-11e1dc4e7988": "d919b90b-2066-4084-939f-fe67fdbd302d",
+        "4cec45ce-c62c-436e-98e7-47b266087aa1": "2b9f3bf6-3b39-4add-8814-030b63aaf84e",
+        "f3bf5a78-3d57-4314-8083-fdda2e155aee": "abb24ae1-412c-47e4-804f-799a360b8d52",
+        "5a7e8fb8-3bcb-4da4-97cc-114205124431": "45d98962-37c2-4d45-b844-18733334a9c5",
+        "8ab23c63-fd99-49ad-a36c-be54df0d16cf": "eef3834a-7bf8-44ce-a362-548f20fe257f",
+        "c39d0543-6ccd-41a9-92ad-fc1306387297": "d6268e99-0440-42f7-b0c2-b48fb94d57cd",
+        "f633900c-f2b8-4b5e-9b36-86714850dbfe": "bcd087ab-d19e-4c0d-87a0-8e8f10073106",
+        "3709708e-8260-41f7-bc6c-2f392466eae8": "50531c1b-64b8-40eb-afb1-7d4a0a723542",
+        "456c67a0-1221-49b3-a6c0-119c8fa1770b": "cb306709-bf76-4c12-8273-fff053a8648c",
+        "b9ffc91c-596e-4477-ac20-4f097d71fd16": "4aa42db4-56b5-44fc-b466-58f1a97fef7e",
+        "e393fc36-1585-4b9b-952f-19795d1d98e7": "3d775a37-3e86-4bdf-9ff9-9c5a9e6304dc",
+        "ec897425-f235-4e75-a455-c7eab26ac75d": "6e922ca5-e844-4aa9-acef-6989b7bae3cc",
+        "1d355834-6fec-4a6b-a2e4-7974e5fe81b6": "28e076e4-177e-4183-ac12-583346527c25",
+        "d1dd7c7c-5455-4051-bc45-f5bd5a53326f": "89aac795-356b-4bc6-a8ff-18cc187b655d",
+        "26130657-42bb-446e-a325-8f590425fea9": "9aebbce2-b09a-4e53-8d58-a68ba1a9b976",
+        "55122685-2fe7-4ea7-abc6-aa3a7beb78c1": "a41ff892-fe1f-4198-8969-70a68131edca",
+        "270368d0-ef98-48f0-bd57-2616db2b8f69": "ec01ad66-a949-4bd1-84ee-f97cecb38d3d",
+        "6bfc921b-c749-4d8a-b0d7-e07df38e6c70": "8f952ac8-084d-4970-80cf-dfc8a8a7aa02",
+        "b4fb7502-a831-451e-9c8f-73530526121f": "7182389b-8926-49c7-b1fe-5f47db30fab0",
+        "3c1da3a3-d97b-456f-98b9-0fd1363ddbe4": "cf507174-8a32-45d0-964e-a5403e02cae7",
+        "020580ad-01a8-4ce9-906a-c5d80140455f": "d56b978d-8b78-4637-8d69-c8c82640aad6",
+        "b0a00062-14e6-4236-ba10-49a5a6f54631": "7f3a4a25-77e1-4059-8df8-bfe870f71ef5",
+        "b933e0da-f80b-40ef-9a71-484b74310144": "d9e6483f-6792-4e33-ad65-489f258b09bd",
+        "14c829f2-0bc2-434f-a32a-2c6b81c5ecde": "32a1c4da-46ac-4cc6-b8fe-8a235ef30fba",
+        "89f4f249-b871-4ac5-a22b-128f41f31da5": "d8a230c6-30b8-404d-840a-48083d4c7326",
+        "b1d88bc2-8b73-4555-8313-dc32d5cbb60c": "d3eeff75-8fec-47b9-9f00-ccf61f9fa562",
+        "f7c6d6a2-b7af-4e0a-bfd5-5ddb44473309": "a38523d5-411e-44f0-a981-e7d021920a2d",
+        "02897572-0843-44e0-9d4f-6812fd550cdf": "6a018cba-445f-4cbc-a2d3-f30aa9cc42b5",
+        "dd2256a0-33f5-4ca6-9b37-526b689bd72e": "957de3d9-562c-4752-90ea-10bf1287f501",
+        "0a585f7c-41d4-4d33-b489-1db741e545a1": "333ff50b-e1bb-44c5-8ebf-d1f961a5cc1d",
+        "8a618766-f96e-40cb-9bf6-c2903faf9fec": "f58cf0c1-97f5-4d83-8108-a1104f0b33b5",
+        "040ece4d-3e74-4b82-b3bf-1332f8475dc2": "fbe7865a-64a0-4218-8bff-a08ae367bea4",
+        "a3e3c832-743a-40cc-9f9f-f59e992f651f": "eaaa04a9-c4b8-42d7-b90f-2fc588ee34a9",
+        "5b76d4ae-03b0-4e4f-a728-a976bb6489e6": "94d72cea-9eb9-427f-a863-c6842f56beb6",
+        "1280e69d-cb4d-49c5-882e-1da8edc1f571": "3a394db2-d614-482c-86e0-b411370c092c",
+        "d9529526-a004-4fb4-8863-004a712cd77a": "f4bffa62-f10b-4551-99ce-73c921c26c6e",
+        "b5cd131f-6c16-4282-9b61-410a0b82144f": "a6aa5cf7-3be8-4d5a-bb11-d642d0cbb92d",
+        "c18b0efc-f659-4ead-a3ac-c8369673afaa": "20acfeb2-5cee-4d55-8500-1261e1b1e640",
+        "d2ccb894-d175-45a3-8928-bcce318d5d55": "754cfa86-d164-4f37-89c5-e00267068c79",
+        "7190217f-603c-4fc0-b55b-57e9637d525a": "d5d9e922-238b-477a-8b2c-1256f9648e7c",
+        "6e22616c-fe2a-4e1e-acaf-3de8c43a3e7f": "25f8f359-ef0f-42d9-9272-202666dd3057",
+        "ecd893b9-1296-4ba7-8352-34a5c811ef00": "925ce7e5-3dd2-4a1a-9075-db49699562df",
+        "525a3747-c82b-41eb-a085-3918937a8195": "9d861cec-f04e-438a-bf6b-926c182368a5",
+        "7bdd2426-0623-4311-805e-6f10d718b741": "587ceeb5-992f-41a4-8220-e27ab01707ec",
+        "2e41c74c-7c8c-4cfa-b1df-ce29361b1a5a": "1daeeef1-49ec-4dbf-850f-b6fe332a6f84",
+        "7b41ea8e-6005-40ec-9fa9-39d1cbfd980a": "22274d0a-0452-41fc-bbf2-8fdbb189caa9",
+        "eee1dc40-54d3-4fa2-a294-dd9d292d9630": "67c6a2e0-0235-498d-99ed-c18dbb0928d2",
+        "214b270b-d190-4ba0-9be9-6986c2d453c3": "721b3b70-e660-4445-820d-90ddd85603a4",
+        "5bebd64c-467d-4ba7-9eeb-2fa8d5bcc494": "de083b5e-777f-4450-8a0b-b59911a3fbe2",
+        "bb7b1aba-b7b4-4879-a3e1-4b1b20e9e861": "be66e46a-2af2-491f-8e51-ad07727c7472",
+        "dd660466-5ae8-42c1-ad36-a3d9e6e63cff": "8b643133-7925-41e6-a152-fe02caf704c4",
+        "d38bd645-5681-4050-82ec-7af7eda334ee": "a7ccb77b-e7e1-4383-b33a-9caecc5759e9",
+        "8e8bae53-fa99-4336-a51a-ca71c29b97da": "affa2efe-4b9e-4681-8b07-93198d78066c"
+      }
     }
   ],
   "SceneProperties": {
     "NetworkInterpolation": true,
+    "PhysicsMode": "Physics3D",
     "TimeScale": 1,
     "WantsSystemScene": true,
     "Metadata": {
