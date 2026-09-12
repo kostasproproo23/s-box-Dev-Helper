@@ -25,16 +25,6 @@
           "bin/placeholder/Base Editor Library.dll": {}
         }
       },
-      "Base Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Base Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Base Library.dll": {}
-        }
-      },
       "dooeditor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -90,9 +80,6 @@
       "s_box_dev_helper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "Base Library": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/s_box_dev_helper.dll": {}
         },
@@ -112,11 +99,6 @@
       "type": "project",
       "path": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/tools/Code/Base Editor Library.csproj",
       "msbuildProject": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/tools/Code/Base Editor Library.csproj"
-    },
-    "Base Library/1.0.0": {
-      "type": "project",
-      "path": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj",
-      "msbuildProject": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj"
     },
     "dooeditor/1.0.0": {
       "type": "project",
@@ -161,11 +143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Editor\\s_box_dev_helper.editor.csproj",
+      "projectUniqueName": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Editor\\s_box_dev_helper.editor.csproj",
       "projectName": "s_box_dev_helper.editor",
-      "projectPath": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Editor\\s_box_dev_helper.editor.csproj",
+      "projectPath": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Editor\\s_box_dev_helper.editor.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Editor\\obj\\",
+      "outputPath": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Editor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -198,8 +180,8 @@
             "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj": {
               "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\editor\\ShaderGraph\\Code\\shadergraph.csproj"
             },
-            "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj"
+            "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj": {
+              "projectPath": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj"
             }
           }
         }

@@ -40,7 +40,8 @@ public sealed class SimpleObbySystem : Component
 
 		if( GameObject.WorldPosition.z <= DeathHeight)
 		{
-			Death();
+			//I have this commented because i dont want the obby system to be active in the scene!
+			//Death();
 		}
 	}
 }

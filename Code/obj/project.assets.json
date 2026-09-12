@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
-      "Base Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Base Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Base Library.dll": {}
-        }
-      }
-    }
+    "net10.0": {}
   },
-  "libraries": {
-    "Base Library/1.0.0": {
-      "type": "project",
-      "path": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj",
-      "msbuildProject": "../../../../../../Program Files (x86)/Steam/steamapps/common/sbox/addons/base/code/Base Library.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0": [
-      "Base Library >= 1.0.0"
-    ]
+    "net10.0": []
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj",
+      "projectUniqueName": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj",
       "projectName": "s_box_dev_helper",
-      "projectPath": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj",
+      "projectPath": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Code\\s_box_dev_helper.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\s&box projects\\s_box_dev_helper\\Code\\obj\\",
+      "outputPath": "C:\\users\\user\\documents\\s&box projects\\s_box_dev_helper\\Code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\addons\\base\\code\\Base Library.csproj": {
-              "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\addons\\base\\code\\Base Library.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "restoreAuditProperties": {
