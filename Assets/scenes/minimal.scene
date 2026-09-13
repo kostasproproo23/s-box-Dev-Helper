@@ -1526,6 +1526,159 @@
               ]
             },
             {
+              "__guid": "21495377-9c66-423d-8dcd-b47201c52df4",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Simple Lerp Camera Example",
+              "Position": "256,-1632,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "0.5,0.5,0.0299999993",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ModelRenderer",
+                  "__guid": "bf613da6-2e40-4756-9f4f-77c41c12b800",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "BodyGroups": 18446744073709551615,
+                  "CreateAttachments": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/rust_cube.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Tint": "1,1,1,1"
+                },
+                {
+                  "__type": "Sandbox.BoxCollider",
+                  "__guid": "2af7bce2-8619-443c-a88f-028a279039d1",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Center": "0,0,0",
+                  "ColliderFlags": 0,
+                  "Elasticity": null,
+                  "Friction": null,
+                  "IsTrigger": false,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "OnObjectTriggerEnter": null,
+                  "OnObjectTriggerExit": null,
+                  "OnTriggerEnter": null,
+                  "OnTriggerExit": null,
+                  "RollingResistance": null,
+                  "Scale": "200.000046,200,200.000046",
+                  "Static": false,
+                  "Surface": null,
+                  "SurfaceVelocity": "0,0,0"
+                }
+              ],
+              "Children": [
+                {
+                  "__guid": "58d7abbd-1c3d-4942-8118-71f6d07e0f1f",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Title",
+                  "Position": "0,0,4266.66699",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "2,2,33.3333359",
+                  "Tags": "",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.TextRenderer",
+                      "__guid": "fa61e7db-f6c6-4e1c-91b9-d348116b76b9",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Billboard": "Always",
+                      "BlendMode": "Normal",
+                      "FogStrength": 1,
+                      "HorizontalAlignment": "Center",
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": true
+                      },
+                      "Scale": 0.3,
+                      "TextScope": {
+                        "Text": "Simple\nLerp",
+                        "TextColor": "1,1,1,1",
+                        "FontName": "Poppins",
+                        "FontSize": 64,
+                        "FontWeight": 800,
+                        "FontItalic": false,
+                        "FontVariantNumeric": "Normal",
+                        "LineHeight": 1,
+                        "LetterSpacing": 0,
+                        "WordSpacing": 0,
+                        "FilterMode": "Bilinear",
+                        "FontSmooth": "Auto",
+                        "Outline": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,1,1"
+                        },
+                        "Shadow": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        },
+                        "OutlineUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,1,0,1"
+                        },
+                        "ShadowUnder": {
+                          "Enabled": false,
+                          "Size": 4,
+                          "Color": "0,0,0,1",
+                          "Offset": "4,4"
+                        }
+                      },
+                      "VerticalAlignment": "Center"
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
+            },
+            {
               "__guid": "ff1c0306-1908-4666-856e-d7a77a464123",
               "__version": 2,
               "Flags": 0,
@@ -2223,6 +2376,141 @@
         "d38bd645-5681-4050-82ec-7af7eda334ee": "a7ccb77b-e7e1-4383-b33a-9caecc5759e9",
         "8e8bae53-fa99-4336-a51a-ca71c29b97da": "affa2efe-4b9e-4681-8b07-93198d78066c"
       }
+    },
+    {
+      "__guid": "30435146-46a0-4f43-b49a-8a2a1a9f3dac",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Sphere",
+      "Position": "256,-1632,56",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "d4cbc487-2941-4669-b7a5-e8181ad799da",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Materials": null,
+          "Model": "models/dev/sphere.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "CameraLerpExample",
+          "__guid": "66cd183d-c889-47e2-abe0-943329ba4016",
+          "__enabled": false,
+          "Flags": 0,
+          "Camera": {
+            "_type": "gameobject",
+            "go": "e344e546-6bcd-46fc-aaab-92309ada7acf"
+          },
+          "CameraLerpSpeed": 5,
+          "CameraRoationLerpSpeed": 5,
+          "CameraTarget": {
+            "_type": "gameobject",
+            "go": "25cc6bd0-27e8-4891-b976-93681f369352"
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "25cc6bd0-27e8-4891-b976-93681f369352",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "CameraTarget",
+          "Position": "0,200,160",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": []
+        }
+      ]
+    },
+    {
+      "__guid": "e344e546-6bcd-46fc-aaab-92309ada7acf",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-120,-1032,56",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "4173fb93-fcfd-400e-a706-790adef3e820",
+          "__enabled": false,
+          "Flags": 0,
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "EnablePostProcessing": true,
+          "FieldOfView": 60,
+          "FovAxis": "Horizontal",
+          "IsMainCamera": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "PostProcessAnchor": null,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "RenderTexture": null,
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
