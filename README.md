@@ -1,5 +1,4 @@
-I started this library because when i joined s&Box at launch there was a huge lack of tutorials.
-Facepunch did not really care about it because it knew a majority of the community used gen AI so they did not really bother even fixing the documentation (They are activly fixing it now which is a good thing).
+I started this library because when i joined s&Box at launch there was a huge lack of tutorials and i struggled a lot in the beginning when learning the engine. Thas why i created this library!
 
 In my library you will find from the most basics like a raycast to a fully working multiplayer raycast car! 
 The library is currently being expanded with the community's suggestions. Everything in my pack is gen AI Free, that means that the code or assets were not generated using AI!
